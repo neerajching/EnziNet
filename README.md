@@ -19,7 +19,7 @@ Xcode: **File ▸ Add Package Dependencies…** and paste the repo URL.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/<you>/EnziNet.git", from: "0.1.0")
+    .package(url: "https://github.com/neerajching/EnziNet.git", from: "0.1.0")
 ],
 targets: [
     .target(name: "MyApp", dependencies: ["EnziNet"])
